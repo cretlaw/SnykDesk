@@ -126,7 +126,7 @@ Options:
 ```
 ## Notes
  - There's a lot of filters please make sure you know what you are looking for or choose defaults. The idea with filters is to have a one to one with all the filters Snyk provides through their API giving users plenty of options to drill down. 
- - Currently set to group tickets by package@version, this gives the convenience of creating one ticket for all severity level passed in CLI and issues for specific package@version. This may not be ideal workflow for all users, an availability to create a ticket for each issue will be coming in the near future. 
+ - Currently set to group tickets by package@version, this gives the convenience of creating one ticket for all severity level passed in CLI and issues for specific package@version. This may not be ideal workflow for all users, an ability to create a ticket for each issue will be coming in the near future. 
 
  ## References
  - https://snyk.docs.apiary.io/#reference/reporting-api/latest-issues
