@@ -63,8 +63,6 @@ help='''If set only include issues which are pinnable. If not set only includes 
 Example -ipin will return all of the issues that are pinnable.''')
 @click.option('-min','--min', default=1, show_default=True,
 help='''Min priority score, default is set to 1.''')
-@click.option('-min','--min', default=1, show_default=True,
-help='''Min priority score, default is set to 1.''')
 @click.option('-max','--max', default=1000, show_default=True,
 help='''Max priority score, default is set to 1000.''')
 @click.option("-sak","--snyk_api_key", prompt=True, hide_input=True, required=True,
